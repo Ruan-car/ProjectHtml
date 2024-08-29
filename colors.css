@@ -1,7 +1,7 @@
 body{
 
     background-color: sandybrown;
-    margin: 5px;
+    margin: 0px;
 
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -16,6 +16,7 @@ header{
     
     border-width: 12px;
     border-style: inset;
+    
    
     
 }
@@ -39,4 +40,29 @@ div{
     
 
 
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+iframe{
+
+    display:-moz-box;
+    justify-content: center;
+    align-items: right;
+}
+
+
+iframe {
+    display: flex;
+    justify-content: center; /* Alinhamento horizontal */
+    align-items: center; /* Alinhamento vertical */
+    width: 100%;
+    height: 300px;
+  }
+  
+  p{
+    font-size: 50px;
 }
