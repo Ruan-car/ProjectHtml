@@ -12,9 +12,9 @@ header{
     font-size: 25;
     font-family: Arial, Helvetica, sans-serif;
 
-    border:solid 2px black;
-    
-    border-width: 12px;
+    border:solid 10px black;
+    border-bottom: 7px;
+    border-bottom-color: black;
     border-style: inset;
     
    
@@ -68,4 +68,8 @@ video{
   p{
     font-size: 50px;
 }
+p2{
+    
+ display: block;
 
+}
